@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Latte</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <H1 class="text-danger">ClassRoom Coffee</H1>
+        <h5 class="text-muted">Slogan ...</h5>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
+              <!-- <li class="breadcrumb-item active" aria-current="page">Library</li> -->
+            </ol>
+        </nav>
+        <div class="row">
+            
+            <div class="col-lg-7">
+                <table class="table table-hover">
+                    <tbody>
+                      <tr>
+                        <td>Kahve Türü</td>
+                        <td>Fiyat</td>
+                      </tr>
+                      <tr>
+                        <td>Colombian</td>
+                        <td>17₺</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                            <button class="btn btn-secondary btn-block" data-toggle="modal" data-target="#exampleModal">
+                                Sepete Ekle
+                            </button>
+                        </td>
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+            </div>
+            <div class="col-lg-5">
+                <img class="img-thumbnail" src="img/kahveler.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bilgileriniz</h5>
+          
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-group">
+                <label for="exampleInputEmail1">İsim</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">E-Posta</label>
+                <input type="email" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Adres</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Sipariş Ver</button>
+          </form>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>
