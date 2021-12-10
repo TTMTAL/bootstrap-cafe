@@ -1,0 +1,1 @@
+Bootstrap kullanarak derste yapılan ana sayfa, kategori sayfası ve ürün detay sayfası tamamlanan çalışma.
